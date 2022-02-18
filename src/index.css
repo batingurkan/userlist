@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width:600px;
+  margin: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.todo-list{
+  border: 0.5px solid lightgray;
+  border-radius: 5px;
+  background-color: lightgray;
+  box-shadow:  0 2px 8px 2px rgba(20, 23, .15);
+  margin-top: 40px;
+}
+
